@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Jardins de Souchette - Paysagiste</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Les Jardins de Souchette</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#presentation">Présentation</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact" class="btn-primary">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h1>Sublimez vos Espaces Verts</h1>
+                <p>Expertise, passion et soin pour votre jardin.</p>
+                <a href="#contact" class="btn-large">Demander un devis</a>
+            </div>
+        </section>
+
+        <section id="presentation" class="section presentation">
+            <div class="container">
+                <h2 class="section-title">Notre Entreprise</h2>
+                <div class="presentation-content">
+                    <div class="presentation-text">
+                        <p>Bienvenue chez <strong>Les Jardins de Souchette</strong>. Nous sommes une entreprise dédiée à
+                            l'entretien et à la création d'espaces verts, mettant notre savoir-faire au service de vos
+                            extérieurs.</p>
+                        <p>Notre mission est de transformer et d'entretenir votre jardin pour qu'il reste un lieu de
+                            détente et de beauté tout au long de l'année. Que ce soit pour une remise en état complète
+                            ou un entretien régulier, nous intervenons avec professionnalisme et rigueur.</p>
+                    </div>
+                    <div class="presentation-image">
+                        <img src="logo.png" alt="Logo Les Jardins de Souchette" class="company-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section services">
+            <div class="container">
+                <h2 class="section-title">Nos Services</h2>
+                <div class="services-grid">
+                    <!-- Service 1: Remise en état -->
+                    <article class="service-card service-card-large">
+                        <div class="card-image-container carousel-container">
+                            <div class="carousel-track">
+                                <img src="remise_avant_1.jpg" alt="Remise en état - Avant nettoyage" loading="lazy">
+                                <img src="remise_avant_2.jpg" alt="Remise en état - Jardin en friche" loading="lazy">
+                                <img src="remise_apres_1.jpg" alt="Remise en état - Après intervention" loading="lazy">
+                                <img src="remise_apres_2.jpg" alt="Remise en état - Terrain propre" loading="lazy">
+                            </div>
+                            <button class="carousel-btn prev" aria-label="Image précédente">&#10094;</button>
+                            <button class="carousel-btn next" aria-label="Image suivante">&#10095;</button>
+                        </div>
+                        <div class="card-content">
+                            <h3>Remise en État</h3>
+                            <p>Un jardin laissé à l'abandon ? Nous intervenons pour le débroussaillage, l'évacuation des
+                                déchets verts et le nettoyage complet de vos extérieurs. Redonnez vie à votre jardin
+                                pour repartir sur des bases saines.</p>
+                        </div>
+                    </article>
+
+                    <!-- Service 2: Tonte -->
+                    <article class="service-card">
+                        <div class="card-image-container">
+                            <img src="tonte.jpg" alt="Tonte de pelouse" loading="lazy"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="card-content">
+                            <h3>Tonte de Pelouse</h3>
+                            <p>Pour une pelouse dense et verdoyante, une tonte régulière et soignée est indispensable.
+                                Nous assurons l'entretien de votre gazon avec du matériel professionnel pour un rendu
+                                impeccable, incluant les finitions.</p>
+                        </div>
+                    </article>
+
+                    <!-- Service 3: Taille de haie -->
+                    <article class="service-card service-card-large">
+                        <div class="card-image-container carousel-container">
+                            <div class="carousel-track">
+                                <img src="taille_1.jpg" alt="Taille de haie - Travail en cours" loading="lazy">
+                                <img src="taille_2.jpg" alt="Taille de haie - Taille nuage" loading="lazy">
+                                <img src="taille_3.jpg" alt="Taille de haie - Finition soignée" loading="lazy">
+                                <img src="taille_4.jpg" alt="Taille de haie - Vue d'ensemble" loading="lazy">
+                            </div>
+                            <button class="carousel-btn prev" aria-label="Image précédente">&#10094;</button>
+                            <button class="carousel-btn next" aria-label="Image suivante">&#10095;</button>
+                        </div>
+                        <div class="card-content">
+                            <h3>Taille de Haie</h3>
+                            <p>Haies libres ou strictes, nous réalisons la taille de vos arbustes pour structurer votre
+                                espace et favoriser leur croissance. Nous maîtrisons les techniques de taille pour
+                                toutes les essences de végétaux.</p>
+                        </div>
+                    </article>
+
+                    <!-- Service 4: Plantation -->
+                    <article class="service-card">
+                        <div class="card-image-container">
+                            <img src="plantation.jpg" alt="Plantation de végétaux" loading="lazy"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="card-content">
+                            <h3>Plantation</h3>
+                            <p>Envie de fleurir votre jardin ou de planter de nouveaux arbres ? Nous vous conseillons
+                                sur le choix des végétaux adaptés à votre sol et à votre exposition, et assurons leur
+                                plantation dans les règles de l'art pour garantir leur reprise.</p>
+                        </div>
+                    </article>
+
+                    <!-- Service 5: Découpe de Bordure -->
+                    <article class="service-card service-card-large">
+                        <div class="card-image-container carousel-container">
+                            <div class="carousel-track">
+                                <img src="bordure_1.jpg" alt="Découpe de bordure - Avant" loading="lazy">
+                                <img src="bordure_2.jpg" alt="Découpe de bordure - Pendant" loading="lazy">
+                                <img src="bordure_3.jpg" alt="Découpe de bordure - Détail" loading="lazy">
+                                <img src="bordure_4.jpg" alt="Découpe de bordure - Finition" loading="lazy">
+                            </div>
+                            <button class="carousel-btn prev" aria-label="Image précédente">&#10094;</button>
+                            <button class="carousel-btn next" aria-label="Image suivante">&#10095;</button>
+                        </div>
+                        <div class="card-content">
+                            <h3>Découpe de Bordure</h3>
+                            <p>Le détail qui fait la différence. Nous réalisons le dressage des bordures pour délimiter
+                                nettement votre pelouse de vos allées et massifs. Une finition impeccable qui structure
+                                et sublime l'ensemble de votre jardin.</p>
+                        </div>
+                    </article>
+
+                    <!-- Service 6: Ramassage de Feuilles -->
+                    <article class="service-card service-card-large">
+                        <div class="card-image-container carousel-container">
+                            <div class="carousel-track">
+                                <img src="feuilles_1.jpg" alt="Ramassage de feuilles - Allée couverte" loading="lazy">
+                                <img src="feuilles_2.jpg" alt="Ramassage de feuilles - Avant intervention"
+                                    loading="lazy">
+                                <img src="feuilles_3.jpg" alt="Ramassage de feuilles - Résultat propre" loading="lazy">
+                                <img src="feuilles_4.jpg" alt="Ramassage de feuilles - Jardin nettoyé" loading="lazy">
+                            </div>
+                            <button class="carousel-btn prev" aria-label="Image précédente">&#10094;</button>
+                            <button class="carousel-btn next" aria-label="Image suivante">&#10095;</button>
+                        </div>
+                        <div class="card-content">
+                            <h3>Ramassage de Feuilles</h3>
+                            <p>L'automne sans la corvée. Nous assurons le ramassage complet et l'évacuation des feuilles
+                                mortes pour préserver la santé de votre gazon et l'esthétique de vos allées. Un jardin
+                                propre et sain en toute saison.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2 class="section-title">Contactez-nous</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <img src="icon_instagram_custom_final_v2.jpg" alt="Instagram"
+                                class="contact-icon-img rounded-icon">
+                            <div>
+                                <h4>Instagram</h4>
+                                <a href="https://www.instagram.com/lesjardinsdesouchette"
+                                    target="_blank">@lesjardinsdesouchette</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <img src="icon_email_custom.png" alt="Email" class="contact-icon-img">
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:lesjardinsdesouchette@gmail.com">lesjardinsdesouchette@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <img src="icon_phone_custom_final.jpg" alt="Téléphone"
+                                class="contact-icon-img rounded-icon">
+                            <div>
+                                <h4>Téléphone</h4>
+                                <a href="tel:0783814040">07 83 81 40 40</a>
+                            </div>
+                        </div>
+                        <div class="contact-item zone-intervention">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <div>
+                                <h4>Zone d'intervention</h4>
+                                <p>Périphérie de 35 km autour de Magny-en-Vexin.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Les Jardins de Souchette. Tous droits réservés.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
